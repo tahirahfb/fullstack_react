@@ -12,3 +12,5 @@ const Results = (props) => {
 }
 
 export default Results;
+
+//Results/Statistics already in separate component
