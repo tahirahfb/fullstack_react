@@ -3,4 +3,7 @@
 
 .neutral { margin-left: 10px;
            margin-right: 10px; }    
-                    
+           
+#no_feedback { font-size: 18px; 
+               font-weight: bold;
+               color: red;}                   
