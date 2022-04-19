@@ -15,11 +15,11 @@ const App = () => {
   const badOne = () => setBad(bad + 1)
 
   return (
-    <div>
+    <div className="apps">
       <Header title={title} />
       <Feedback goodOne={goodOne} neutralOne={neutralOne} badOne={badOne}/>
       <Statistics />
-      <Results good={good} neutral={neutral} bad={bad} />
+      <Results  good={good} neutral={neutral} bad={bad} />
     </div>
   )
 }

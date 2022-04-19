@@ -1,9 +1,10 @@
 const Feedback = (props) => {
+    const {goodOne, neutralOne, badOne} = props
     return(
         <div className="btns">
-            <button className="good" onClick={props.goodOne}>Good</button>
-            <button className="neutral" onClick={props.neutralOne}>Neutral</button>
-            <button className="bad" onClick={props.badOne}>Bad</button>
+            <button className="good" onClick={goodOne}>Good</button>
+            <button className="neutral" onClick={neutralOne}>Neutral</button>
+            <button className="bad" onClick={badOne}>Bad</button>
         </div>
     )
 }
